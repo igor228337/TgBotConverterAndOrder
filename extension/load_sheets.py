@@ -2,7 +2,7 @@ import httplib2
 import apiclient.discovery
 from oauth2client.service_account import ServiceAccountCredentials
 
-CREDENTIALS_FILE = r'extension\dubaipython-985a0a91588a.json'  # Имя файла с закрытым ключом, вы должны подставить свое
+CREDENTIALS_FILE = r'extension\name.json'  # Имя файла с закрытым ключом, вы должны подставить свое
 
 # Читаем ключи из файла
 credentials = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_FILE,
