@@ -1,0 +1,5 @@
+aiogram
+SQLAlchemy
+asyncpg
+textblob
+requests-html
